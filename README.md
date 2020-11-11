@@ -5,11 +5,9 @@ Home: https://pkg.mitchelloharawild.com/vitae/, https://github.com/mitchellohara
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-vitae-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides templates and functions to simplify the production and maintenance of curriculum vitae.
-
-
 
 Current build status
 ====================
