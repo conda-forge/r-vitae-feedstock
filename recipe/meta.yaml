@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/vitae_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/vitae/vitae_{{ version }}.tar.gz
-  sha256: e15bfd35a6da8ef037a14d8ec4f5c9061051b17c89daf0d3b9233db209e8688d
+  sha256: 7b62139044dba68cbaaf70bb6e70bd92d6a403236b7a8693b85f028c4530addf
 
 build:
   merge_build_host: true  # [win]
