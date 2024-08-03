@@ -1,6 +1,5 @@
 {% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-vitae
@@ -13,8 +12,7 @@ source:
   sha256: 1b6eff0b1bef34179fb79f2f9a551124e63b0321bc972654d5427d04f49d6655
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
